@@ -1,1 +1,1 @@
-web: golang-gin-poc
+web: go run server.go
