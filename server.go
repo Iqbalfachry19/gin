@@ -30,7 +30,7 @@ func main() {
 server.Static("/css","./template/css")
 server.LoadHTMLGlob("templates/*.html")
 
-	server.Use(gin.Recovery(),middlewares.Logger(),middlewares.BasicAuth(),gindump.Dump())
+	server.Use(gin.Recovery(),middlewares.Logger(),gindump.Dump())
 
 	apiRoutes := server.Group("/api")
 	{

@@ -14,3 +14,7 @@
 [GIN-debug] POST   /api/videos               --> main.main.func2 (5 handlers)
 [GIN-debug] GET    /view/videos              --> gilab.com/pragmaticreviews/golang-gin-poc/controller.VideoController.ShowAll-fm (5 handlers)
 [GIN-debug] Listening and serving HTTP on :8080
+::1 - [05 Sep 21 10:37 +07] GET / 401 0s 
+::1 - [05 Sep 21 10:37 +07] GET / 401 0s 
+::1 - [05 Sep 21 10:37 +07] GET / 404 273.6µs 
+::1 - [05 Sep 21 10:37 +07] GET /favicon.ico 404 322.2µs 
